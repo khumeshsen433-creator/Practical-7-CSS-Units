@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Units</title>
+
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .px {
+            width: 200px;
+            background: pink;
+        }
+
+        .percent {
+            width: 50%;
+            background: lightblue;
+        }
+
+        .em {
+            font-size: 2em;
+            background: lightgreen;
+        }
+
+        .rem {
+            font-size: 2rem;
+            background: yellow;
+        }
+
+        .vh {
+            height: 15vh;
+            background: orange;
+        }
+
+        .vw {
+            width: 50vw;
+            background: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Units Demo</h1>
+
+    <div class="px">Width: 200px</div>
+    <br>
+
+    <div class="percent">Width: 50%</div>
+    <br>
+
+    <div class="em">Font size: 2em</div>
+    <br>
+
+    <div class="rem">Font size: 2rem</div>
+    <br>
+
+    <div class="vh">Height: 15vh</div>
+    <br>
+
+    <div class="vw">Width: 50vw</div>
+
+</body>
+</html>
